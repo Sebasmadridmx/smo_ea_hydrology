@@ -1,0 +1,4 @@
+*.gem
+batch_rainfall/
+*.csv
+.DS_Store
