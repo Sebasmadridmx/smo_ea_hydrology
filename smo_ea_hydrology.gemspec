@@ -6,7 +6,7 @@ Gem::Specification.new do |spec|
   spec.name          = "smo_ea_hydrology"
   spec.version       = SmoEaHydrology::VERSION
   spec.authors       = ["Sebastian Madrid Ontiveros"]
-  spec.email         = []
+  spec.email         = ["sebasmadrid20@hotmail.com"]
 
   spec.summary       = "Environment Agency Hydrology API client for 15-min rainfall data."
   spec.description   = <<~DESC
@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
   spec.license       = "MIT"
   spec.required_ruby_version = ">= 2.7.0"
 
-  spec.files         = Dir["lib/**/*.rb", "README.md", "LICENSE"]
+  spec.files         = Dir["lib/**/*.rb", "README.md", "LICENSE", "CHANGELOG.md"]
   spec.require_paths = ["lib"]
 end
